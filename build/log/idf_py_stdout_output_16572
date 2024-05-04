@@ -1,0 +1,113 @@
+[0;32mI i��J��}������ App �ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Oct 27 2023 23:07:25[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1eee8h (126696) map[0m
+[0;32mI (151) esp_image: segment 1: paddr=0002ef10 vaddr=3ffb0000 size=01108h (  4360) load[0m
+[0;32mI (153) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=5539ch (349084) map[0m
+[0;32mI (282) esp_image: segment 3: paddr=000853c4 vaddr=3ffb1108 size=011b8h (  4536) load[0m
+[0;32mI (284) esp_image: segment 4: paddr=00086584 vaddr=40080000 size=0d0b0h ( 53424) load[0m
+[0;32mI (317) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (317) boot: Disabling RNG early entropy source...[0m
+[0;32mI (328) cpu_start: Multicore app[0m
+[0;32mI (329) cpu_start: Pro cpu up.[0m
+[0;32mI (329) cpu_start: Starting app cpu, entry point is 0x4008130c[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (347) cpu_start: Pro cpu start user code[0m
+[0;32mI (347) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (347) cpu_start: Application information:[0m
+[0;32mI (352) cpu_start: Project name:     mqtt_tcp[0m
+[0;32mI (357) cpu_start: App version:      1[0m
+[0;32mI (361) cpu_start: Compile time:     May  2 2024 23:45:23[0m
+[0;32mI (367) cpu_start: ELF file SHA256:  7c39f513c2fdc73c...[0m
+[0;32mI (373) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (379) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (383) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (388) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (393) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (400) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (406) heap_init: At 3FFB3B50 len 0002C4B0 (177 KiB): DRAM[0m
+[0;32mI (412) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (419) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (425) heap_init: At 4008D0B0 len 00012F50 (75 KiB): IRAM[0m
+[0;32mI (433) spi_flash: detected chip: generic[0m
+[0;32mI (436) spi_flash: flash io: dio[0m
+[0;33mW (440) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (454) app_start: Starting scheduler on CPU0[0m
+[0;32mI (458) app_start: Starting scheduler on CPU1[0m
+[0;32mI (458) main_task: Started on CPU0[0m
+[0;32mI (468) main_task: Calling app_main()[0m
+[0;32mI (468) MQTT_ESP32_4RELAY:: [APP] Startup..[0m
+[0;32mI (468) MQTT_ESP32_4RELAY:: [APP] Free memory: 296532 bytes[0m
+[0;32mI (478) MQTT_ESP32_4RELAY:: [APP] IDF version: v5.1.1-dirty[0m
+[0;32mI (538) MQTT_ESP32_4RELAY:: Configured to blink GPIO LED12![0m
+[0;32mI (538) gpio: GPIO[12]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (538) MQTT_ESP32_4RELAY:: Configured to blink GPIO LED13![0m
+[0;32mI (548) gpio: GPIO[13]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (558) MQTT_ESP32_4RELAY:: Configured to blink GPIO LED14![0m
+[0;32mI (558) gpio: GPIO[14]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (568) MQTT_ESP32_4RELAY:: Configured to blink GPIO LED19![0m
+[0;32mI (578) gpio: GPIO[19]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (588) MQTT_ESP32_4RELAY:: Other event id:7[0m
+[0;31mE (588) esp-tls: couldn't get hostname for :mqtt.eclipseprojects.io: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (598) transport_base: Failed to open a new connection: 32769[0m
+[0;31mE (608) mqtt_client: Error transport connect[0m
+[0;32mI (618) MQTT_ESP32_4RELAY:: MQTT_EVENT_ERROR[0m
+[0;31mE (618) MQTT_ESP32_4RELAY:: Last error reported from esp-tls: 0x8001[0m
+[0;32mI (628) MQTT_ESP32_4RELAY:: Last errno string (Success)[0m
+[0;32mI (628) MQTT_ESP32_4RELAY:: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (638) main_task: Returned from app_main()[0m
+[0;32mI (10638) MQTT_ESP32_4RELAY:: Other event id:7[0m
+[0;31mE (10638) esp-tls: couldn't get hostname for :mqtt.eclipseprojects.io: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (10638) transport_base: Failed to open a new connection: 32769[0m
+[0;31mE (10648) mqtt_client: Error transport connect[0m
+[0;32mI (10648) MQTT_ESP32_4RELAY:: MQTT_EVENT_ERROR[0m
+[0;31mE (10658) MQTT_ESP32_4RELAY:: Last error reported from esp-tls: 0x8001[0m
+[0;32mI (10658) MQTT_ESP32_4RELAY:: Last errno string (Success)[0m
+[0;32mI (10668) MQTT_ESP32_4RELAY:: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (20678) MQTT_ESP32_4RELAY:: Other event id:7[0m
+[0;31mE (20678) esp-tls: couldn't get hostname for :mqtt.eclipseprojects.io: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (20678) transport_base: Failed to open a new connection: 32769[0m
+[0;31mE (20688) mqtt_client: Error transport connect[0m
+[0;32mI (20688) MQTT_ESP32_4RELAY:: MQTT_EVENT_ERROR[0m
+[0;31mE (20698) MQTT_ESP32_4RELAY:: Last error reported from esp-tls: 0x8001[0m
+[0;32mI (20698) MQTT_ESP32_4RELAY:: Last errno string (Success)[0m
+[0;32mI (20708) MQTT_ESP32_4RELAY:: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (30718) MQTT_ESP32_4RELAY:: Other event id:7[0m
+[0;31mE (30718) esp-tls: couldn't get hostname for :mqtt.eclipseprojects.io: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (30718) transport_base: Failed to open a new connection: 32769[0m
+[0;31mE (30728) mqtt_client: Error transport connect[0m
+[0;32mI (30728) MQTT_ESP32_4RELAY:: MQTT_EVENT_ERROR[0m
+[0;31mE (30738) MQTT_ESP32_4RELAY:: Last error reported from esp-tls: 0x8001[0m
+[0;32mI (30738) MQTT_ESP32_4RELAY:: Last errno string (Success)[0m
+[0;32mI (30748) MQTT_ESP32_4RELAY:: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (40758) MQTT_ESP32_4RELAY:: Other event id:7[0m
+[0;31mE (40758) esp-tls: couldn't get hostname for :mqtt.eclipseprojects.io: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (40758) transport_base: Failed to open a new connection: 32769[0m
+[0;31mE (40768) mqtt_client: Error transport connect[0m
+[0;32mI (40768) MQTT_ESP32_4RELAY:: MQTT_EVENT_ERROR[0m
+[0;31mE (40778) MQTT_ESP32_4RELAY:: Last error reported from esp-tls: 0x8001[0m
+[0;32mI (40778) MQTT_ESP32_4RELAY:: Last errno string (Success)[0m
+[0;32mI (40788) MQTT_ESP32_4RELAY:: MQTT_EVENT_DISCONNECTED[0m
