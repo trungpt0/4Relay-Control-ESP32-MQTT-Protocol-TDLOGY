@@ -8,10 +8,14 @@ This project uses ESP-MQTT library which implements mqtt client to connect to mq
 ## How to use
 
 ESP32: subscriber
-* idf.py -p (PORT) flash monitor
+```
+idf.py -p (PORT) flash monitor
+```
 Users: publisher
-* mosquitto_pub -h mqtt.eclipseprojects.io -t data -m "RELAY?:ON"
-* Example: mosquitto_pub -h mqtt.eclipseprojects.io -t data -m "RELAY1:ON"
+```
+mosquitto_pub -h mqtt.eclipseprojects.io -t data -m "RELAY?:ON"
+```
+Example: mosquitto_pub -h mqtt.eclipseprojects.io -t data -m "RELAY1:ON"
 
 ### Hardware Required
 
